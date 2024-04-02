@@ -15,4 +15,4 @@ Make sure that `deploy.sh` is set as an executable file in your file system usin
 
 Probably better not to run `commands.sh` in its entirety and instead just copy paste commands into the command line.
 
-**Important** It doesn't matter where `deploy.sh` is stored but when calling e.g. `~/random_folder/deploy.sh config_autocrat.sh build` make sure that you're in the top level directory of the project. E.g. `cd ~/projects/futarchy`.
+**Important** It doesn't matter where `deploy.sh` is stored but when calling e.g. `~/random_folder/deploy.sh config_autocrat.sh build` make sure that you're in the top level directory of the project. E.g. `cd ~/projects/futarchy`. It also assumes you have `verifiable-deploy` installed in your terminal.
